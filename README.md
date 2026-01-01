@@ -23,6 +23,19 @@ The optimizer reads an input universe from `tickers.csv` and follows this proces
 
 ---
 
+## Repository Structure
+```
+benchmark-portfolio-optimizer/
+│
+├── main.ipynb          # Main analysis and portfolio construction notebook
+├── tickers.csv         # Input ticker universe
+├── portfolio.csv       # Final output (Ticker, Shares)
+├── requirements.txt    # Required Python libraries
+└── README.md           # Project documentation
+```
+
+---
+
 ## Ticker Filtering
 Stocks are filtered using these rules:
 
@@ -84,31 +97,6 @@ The final portfolio is exported to `portfolio.csv`, containing each ticker and t
 - Designed the benchmark distance ranking method  
 - Implemented portfolio selection under sector and market-cap constraints  
 - Added optimization validation checks  
-
----
-
-## Repository Structure
-```
-benchmark-portfolio-optimizer/
-│
-├── main.ipynb          # Main analysis and portfolio construction notebook
-├── tickers.csv         # Input ticker universe
-├── portfolio.csv       # Final output (Ticker, Shares)
-├── requirements.txt    # Required Python libraries
-└── README.md           # Project documentation
-```
-
----
-
-## Requirements
-The project uses the following Python libraries:
-```
-pandas
-numpy
-yfinance
-matplotlib
-scipy
-```
 
 ---
 
