@@ -1,7 +1,7 @@
 # Benchmark Portfolio Optimizer 📊  
 **CFM 101 – Robo-Advising Challenge (Market Meet Strategy)**
 
-> For the complete implementation and outputs, please refer to `main.ipynb`.
+> For the complete implementation and outputs, refer to `main.ipynb`.
 
 ## Overview
 This project builds a rule-based portfolio optimizer that constructs a diversified equity portfolio designed to track a benchmark defined as the average of the S&P 500 and TSX Composite total returns.
