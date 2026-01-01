@@ -45,7 +45,7 @@ This captures recent market behavior while avoiding early COVID-period distortio
 ## Benchmark and Stock Ranking
 The benchmark is defined as the average of cumulative total returns from the S&P 500 and TSX Composite.
 
-Each stock is ranked by its average absolute distance from the benchmark’s cumulative return. Cross-listed duplicates are removed, keeping the version that tracks the benchmark more closely.
+Each stock is ranked by its average absolute distance from the benchmark's cumulative return. Cross-listed duplicates are removed, keeping the version that tracks the benchmark more closely.
 
 ---
 
