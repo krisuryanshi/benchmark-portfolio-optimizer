@@ -37,7 +37,7 @@ scipy
 
 ---
 
-### Strategy Summary
+## Strategy Summary
 The optimizer reads an input universe from `tickers.csv` and follows this process:
 
 - Filter eligible stocks based on data quality and liquidity  
